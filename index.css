@@ -1,0 +1,55 @@
+.gradient {
+    background-image: linear-gradient(azure, aquamarine);
+}
+
+.header{ 
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    height: 70px;
+    width: 70px;
+}
+
+.chat-area {
+    background-color: ivory;
+    border-radius: 10px;
+    display: flex;
+    width: 750px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.user-list {
+    width: 150px;
+    border-right: 1px solid gray;
+}
+.user-list li{
+    list-style-type: none;
+}
+
+.history{
+    display: block;
+    width: 600px;
+    height: 350px;
+    border-bottom: 1px solid gray;
+    overflow-y: auto;
+}
+
+.msg {
+    background-color: bisque;
+    margin: 2px;
+}
+
+.send-area{
+    align-items: center;
+    display: flex;
+    height: 50px;
+    width: 600px;
+    justify-content: space-evenly;
+}
+
+.send-area input {
+    width: 350px;
+}
